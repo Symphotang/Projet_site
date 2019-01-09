@@ -17,7 +17,10 @@ form{text-align:center}
 
 p{text-align:center}
 
-body{background : #6495ED}
+body
+{
+	background-image:url(images/fondbleu.png);
+}
 
 .bouton
 {
