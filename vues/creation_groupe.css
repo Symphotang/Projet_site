@@ -4,14 +4,16 @@ background-image:url(images/fondbleu.png);
 
 a{text-decoration:none;}
 
-.bouton
-{
-	float : right;
-}
-
 h1
 {
-	font-size : 80px;
+	font-size : 60px;
 	color : #FFD700;
-	margin-left : 3cm;
+}
+
+.valider{
+	margin-top:1cm;
+}
+
+.annuler{
+	margin-top :3cm;
 }
