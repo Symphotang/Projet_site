@@ -1,0 +1,61 @@
+h1{text-align:center}
+
+a{text-decoration:none;}
+
+.image
+{	
+	width : 60%;
+	height : auto;
+}
+
+.centrer
+{
+    text-align:center;
+}
+
+form{text-align:center}
+
+p{text-align:center}
+
+body{background : #6495ED}
+
+.bouton
+{
+	margin-left : 0.5cm;
+}
+
+.illustration {
+	position: absolute;
+	margin-left: 32.4cm;
+	width : 7.9cm;
+	height: 17.9cm;
+}
+
+.illustration2 {
+	position: absolute;
+	margin-left: 0cm;
+	width : 7.9cm;
+	height: 17.9cm;
+}
+ 
+.i-small{
+	position : absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+ 
+.i-small {
+	background:url("images/particules_small.png") repeat 0px 0px;
+	-webkit-animation: dropFlowParticles 27s linear infinite;
+	     -o-animation: dropFlowParticles 27s linear infinite;
+	        animation: dropFlowParticles 27s linear infinite;
+}
+
+ 
+@-webkit-keyframes dropFlowParticles {
+	from { background-position: 0 0; }
+	to { background-position: 0 413px; }
+}
+@keyframes dropFlowParticles {
+	from { background-position: 0 0; }
+	to { background-position: 0 413px; }
+}
