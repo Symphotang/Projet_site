@@ -16,6 +16,6 @@
 	
 	else{
 		echo "pas de compte";
-		//header('Location: ../Vues/formulaire_inscription.php');
+		//header('Location: ../Vues/Inscription.php');
 	}
 ?>

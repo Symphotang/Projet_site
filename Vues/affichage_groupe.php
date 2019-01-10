@@ -10,7 +10,7 @@
 
 	<body>
 		<a href="page_accueil.php" class="bouton"><input type="button" value="Retour à l'accueil" style='width:140px; height:30px'></a>
-		<h1>Nom du groupe</h1>
+		<h1>Groupe4</h1>
 		<section>
 		<br>
 		<a href="invitation_membre.php" class="bouton"><input type="button" value="Inviter un membre" style='width:140px; height:30px'></a>
@@ -24,13 +24,6 @@
 		<br>
 		<section>
 		<p>Liste des membres et cadeaux</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
 		</section>
 	</body>
 

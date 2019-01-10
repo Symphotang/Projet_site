@@ -18,7 +18,7 @@
 			<p><input type="text" name="nom"></p>
 			<p><input type="text" name="Descriptif"></p>
 
-			<p>Insérer image du cadeau ? (sait pas comment faire)</p>
+			<p>Image cadeau</p>
 			<p>~~~~~~~~~~~~~~~~~~</p>
 			<p>~~~~~~~~~~~~~~~~~~</p>
 			<p>~~~~~~~~~~~~~~~~~~</p>

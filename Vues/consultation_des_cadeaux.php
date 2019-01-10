@@ -11,10 +11,11 @@
 	<body>
 		<h1>Liste des cadeaux...</h1>
 		<section>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
+		<p>Voiture télécommandée</p>
+		<p>Poupée</p>
+		<p>Jeux de société</p>
+		<p>Ballon</p>
+		<p>Maquillage</p>
 		</section>
 		<br>
 		<section>

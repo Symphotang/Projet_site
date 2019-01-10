@@ -12,10 +12,10 @@
 		<h1>Veuillez sélectionner le groupe où la liste va être partagé.</h1>
 		<section>
 		<p>Liste des groupes</p>
-		<p>~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~~</p>
+		<p>Groupe1</p>
+		<p>Groupe2</p>
+		<p>Groupe3</p>
+		<p>Groupe4</p>
 
 		<form method="POST" action="consultation_des_cadeaux.php">
 			<p><INPUT TYPE="submit" VALUE="Annuler"></p>

@@ -9,12 +9,12 @@
 	</head>
 
 	<body>
-		<h1>Liste des groupes...</h1>
+		<h1>Liste des groupes</h1>
 		<section>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
-		<p>~~~~~~~~~~~~~~~~~</p>
+		<p>Groupe1</p>
+		<p>Groupe2</p>
+		<p>Groupe3</p>
+		<p>Groupe4</p>
 
 		<form method="POST" action="page_accueil.php">
 			<p><INPUT TYPE="submit" VALUE="Retour à l'accueil"></p>
