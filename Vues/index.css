@@ -1,0 +1,45 @@
+body
+{
+	text-align: center;
+	background-image: url(images/fondbleu.gif);
+	background-repeat: no-repeat; 
+    background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFD700;
+}
+
+.image
+{	
+	width: 50%;
+	height: auto;
+}
+
+.centrer
+{
+    text-align: center;
+}
+
+form{
+	text-align: center
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+	color: #FFD700;
+}
+
+section
+{
+	border: 10px dotted;
+	border-color: #990000;
+	padding: 5px;
+}
