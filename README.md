@@ -1,4 +1,4 @@
 # Projet_site
 Le site du projet tutoré !
 
-A finir avant le 10/01/2019 à 10h00 !
+A rendre sur moodle avant le 13/01/2019 à 00h00 !
