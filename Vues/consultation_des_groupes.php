@@ -10,11 +10,20 @@
 
 	<body>
 		<h1>Liste des groupes</h1>
+		
 		<section>
-		<p>Groupe1</p>
-		<p>Groupe2</p>
-		<p>Groupe3</p>
-		<p>Groupe4</p>
+		<?php require_once('../Modeles/bd.php');
+		if (!$co)
+		echo "Attention : pas de base de données";
+		else {
+	
+		$query = "SELECT nomGroupe FROM groupe"; 
+	
+		$resultat = mysqli_query ($co, $query);
+		$row = mysqli_fetch_array($resultat, MYSQLI_ASSOC);
+		}
+		?>
+		<p><?php echo $row['nomGroupe']; ?></p>
 
 		<form method="POST" action="page_accueil.php">
 			<p><INPUT TYPE="submit" VALUE="Retour à l'accueil"></p>

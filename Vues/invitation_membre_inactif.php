@@ -11,9 +11,9 @@
 	<body>
 		<h1>Indiquez les informations du membre inactif.</h1>
 		<section>
-		<form method="POST" action="affichage_groupe.php">
-			<p><input type="text" name="nom"></p>
-			<p><input type="text" name="prenom"></p>
+		<form method="POST" action="../controleurs/invitation_membre_inactif.php">
+			<p><input type="text" name="nom" placeholder="nom"></p>
+			<p><input type="text" name="prenom" placeholder="prénom"></p>
 			<p><INPUT TYPE="submit" VALUE="Ajouter au groupe"></p>
 		</form>
 

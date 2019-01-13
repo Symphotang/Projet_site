@@ -11,8 +11,8 @@
 	<body>
 		<h1>Envoyer un e-mail à la personne que vous souhaitez inviter !</h1>
 		<section>
-		<form method="POST" action="affichage_groupe.php">
-			<p><input type="text" name="email"></p>
+		<form method="POST" action="../controleurs/invitation_membre.php">
+			<p><input type="text" name="email" placeholder="Email" style='width:250px'></p>
 			<p><INPUT TYPE="submit" VALUE="Envoyer l'invitation"></p>
 		</form>
 

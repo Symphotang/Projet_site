@@ -15,7 +15,7 @@
 		<h1>Page d'accueil</h1>
 		
 		<section>
-		<a href="creation_groupe.php"> <input type="button" value="Créer un groupe" style='width:300px; height:80px'></a>
+		<a href="../Controleurs/groupe_existant.php"> <input type="button" value="Créer un groupe" style='width:300px; height:80px'></a>
 		<br><br>
 		<a href="consultation_des_groupes.php"> <input type="button" value="Consulter ses groupes" style='width:300px; height:80px'></a>
 		<br><br>

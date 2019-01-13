@@ -4,31 +4,28 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Consulter les cadeaux</title>
+		<title>Créer un cadeau</title>
 		<link rel="stylesheet" href="index.css">
 	</head>
 
 	<body>
 		<h1>Veuillez entrer les informations du cadeau à créer.</h1>
-		<form method="POST" action="consultation_des_cadeaux.php">
-			<p><INPUT TYPE="submit" VALUE="Annuler"></p>
-		</form>
 		<section>
-		<form method="POST" action="consultation_des_cadeaux.php">
-			<p><input type="text" name="nom"></p>
-			<p><input type="text" name="Descriptif"></p>
+		<form method="POST" action="../controleurs/creation_cadeau.php">
+			<p><input type="text" name="nom" placeholder="Nom"></p>
+			<p><input type="text" name="descriptif" placeholder="Descriptif" style='width:300px'></p>
 
-			<p>Image cadeau</p>
-			<p>~~~~~~~~~~~~~~~~~~</p>
-			<p>~~~~~~~~~~~~~~~~~~</p>
-			<p>~~~~~~~~~~~~~~~~~~</p>
-			<p>~~~~~~~~~~~~~~~~~~</p>
-			<p>~~~~~~~~~~~~~~~~~~</p>
+			<p><input type="file" name="image"></p>
 
-			<p><input type="text" name="lien"></p>
-			<p><INPUT TYPE="submit" VALUE="Valider"></p>
+			<p><input type="text" name="lien" placeholder="Lien" style='width:180px'></p>
+			<p><INPUT TYPE="submit" VALUE="Valider" style='width:120px; height:30px'></p>
 		</form>
 		</section>
+		
+		<form method="POST" action="consultation_des_cadeaux.php">
+			<p><INPUT TYPE="submit" VALUE="Annuler" style='width:110px; height:30px'></p>
+		</form>
+		
 	</body>
 
 </html>
