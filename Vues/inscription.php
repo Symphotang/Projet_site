@@ -22,7 +22,7 @@
 		
 		
 			<div class="bouton">
-				<p><INPUT TYPE="submit" VALUE="Annuler" style='width:170px; height:50px'> <input TYPE="submit" name="inscription" VALUE="Inscription" style='width:170px; height:50px'></p>
+				<p><a href="formulaire_connexion.php"><INPUT TYPE="button" VALUE="Annuler" style='width:170px; height:50px'></a> <input TYPE="submit" name="inscription" VALUE="Inscription" style='width:170px; height:50px'></p>
 			</div>
 			
 			<div class="centrer">

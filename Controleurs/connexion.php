@@ -1,21 +1,23 @@
 <?php
-	include('../Modeles/bd.php');
+	require_once('../Modeles/bd.php');
 	
 	$login = $_POST["login"];
 	$mdp = $_POST["mdp"];
 	
-	mysqli_select_db('app_cadeau',$co);
+	if (!$co)
+	echo "Attention : pas de compte";
+	else {
 	
-	$request = "SELECT loginMembre, mdpMembre FROM membre WHERE loginMembre = $login AND mdpMembre = $mdp"; 
+	$query = "SELECT loginMembre, mdpMembre FROM membre WHERE loginMembre = '$login' AND mdpMembre = '$mdp'"; 
 	
-	if(mysqli_query($request!=NULL)){
-		//initMembre($co,$pseudo,$mdp);
-		connexion();
-		header('Location: ../Vues/page_acceuil.php');
+	$resultat = mysqli_query ($co, $query);
+	$row = mysqli_fetch_array($resultat, MYSQLI_ASSOC);
+	
+	if (mysqli_num_rows($resultat) != 0){
+		mysqli_close($co);
+		header('Location: ../Vues/page_accueil.php');
 	}
+	else header('Location: ../Vues/formulaire_connexion.php');
+}
 	
-	else{
-		echo "pas de compte";
-		//header('Location: ../Vues/Inscription.php');
-	}
 ?>

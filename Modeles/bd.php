@@ -1,6 +1,6 @@
 <?php
 	$host = "localhost";
-	$user = "";
+	$user = "root";
 	$passwd ="";
 	$bdd = "app_cadeau";
 	$co=mysqli_connect($host,$user,$passwd ,$bdd) or
